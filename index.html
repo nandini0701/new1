@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaibhav Bolthey</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100px;
+            background-color: rgb(7, 7, 12);
+        }
+
+        main hr {
+            border: 0;
+            background: #9797f1;
+            height: 1.2px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 180px 0;
+        }
+
+        .firstsection>div {
+            width: 20%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            margin: 30px 0;
+        }
+
+        .rightsection img {
+            width: 80%;
+
+
+        }
+
+        .purple {
+            color: rgb(162, 97, 175);
+        }
+
+        #element {
+            color: rgb(162, 97, 175);
+        }
+
+      
+
+        #date-button:hover {
+            background-color: #a0458c;
+            align-items: center;
+        }
+
+        #date-button:active {
+            transform: translate(-50%, -50%) scale(0.98);
+        }
+        
+    </style>
+</head>
+
+<body>
+    <a href="reveal.html"> <button style="font-size: 20px; background-color: #a0458c; color: white "; position: absolute;
+        top: 30%;
+       left: 50%;
+       padding: 15px 30px;
+       font-size: 20px;
+       font-family: Arial, sans-serif;
+       background-color: #a0458c;
+       border: none;
+       border-radius: 5px;
+       cursor: pointer;
+       transition: background-color 0.3s, transform 0.1s, opacity 0.5s; >August 6, 2024</button></a>
+    <header>
+        <nav>
+            <div class="left">@bolthey.com</div>
+            <div class="right"></div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hello!! whose BIRTHDAY
+                <div>is it today ???</div>
+
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+
+            </div>
+        </section>
+
+
+
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['chinnu?', 'laddu?', 'or is it', 'bolthey?','click the left','corner','button'],
+            typeSpeed: 50,
+        });
+    
+
+
+    </script>
+
+
+</body>
+
+</html>
